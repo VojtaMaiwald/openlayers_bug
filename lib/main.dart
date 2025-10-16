@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Full Page Map</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@9/ol.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@10/ol.css" />
     <style>
         html,
         body {
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
 
 <body>
     <div id="map"></div>
-    <script src="https://cdn.jsdelivr.net/npm/ol@9/dist/ol.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol@10/dist/ol.js"></script>
     <script>
         const map = new ol.Map({
             target: "map",
